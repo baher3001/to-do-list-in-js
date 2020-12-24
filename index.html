@@ -1,0 +1,112 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            background-color: rgb( 255 ,88 ,88 );
+            color: white;
+            text-align: center;
+        }
+        div
+        {
+            max-width: 300px;
+            margin: auto;
+            border: solid 1px ;
+            margin-top: 80px;
+        }
+        ul
+        {
+            list-style: none;
+            margin-left: -30px;
+        }
+        .clear
+        {
+            margin-bottom: 40px;
+
+
+        }
+        .secand
+        {
+            opacity: 0.7;
+            margin-left: 8px;
+            cursor: pointer;
+            
+        }
+         .first:hover,.secand:hover
+        {
+            opacity: 1;
+        }
+        .first
+        {
+            margin-right: 8px;
+            opacity: 0.7;
+            cursor: pointer;
+        }
+        details
+        {
+            margin: 10px;
+
+        }
+        summary
+        {
+            outline: none;
+        }
+
+
+    </style>
+</head>
+<body>
+
+  
+
+
+    <div>
+        <h1 id="day"> Monday  </h1>
+        <p id="dayDate">  31-1-2020  </p>
+        <input type="text" class="ss"  >
+        <button id="add"> +  </button>
+
+
+
+
+       
+        
+
+            
+        <details  open> 
+            <summary> paddding list</summary>
+            <ul id="pendingList">
+           
+            </ul>
+
+       </details>
+
+
+
+
+
+
+
+         <details>
+              <summary> Done</summary>
+              <ul id="doneList">
+              
+
+            </ul>
+
+         </details>
+
+        <button class="clear" onclick="reset()"> Clear  </button>
+    </div>
+    
+
+
+
+    <script src="index.js">
+      
+    </script>
+</body>
+</html>
